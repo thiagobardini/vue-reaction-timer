@@ -29,4 +29,8 @@
      ![](https://i.imgur.com/U68qSpK.png)
 
 1. Creating a timer
+
    - [Video 1](https://youtu.be/kUiI0FPZ3rY)
+
+1. Challenge - showing a results component
+   ![](https://i.imgur.com/X1A29tF.png)
