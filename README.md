@@ -1,19 +1,13 @@
 # vue-reaction-timer
 
 ## Project setup
-```
-npm install
-```
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+![seq](https://i.imgur.com/xfpi0GF.png)
+![seq](https://i.imgur.com/uc6d1IA.png)
+![seq](https://i.imgur.com/Fwq3vQR.png)
+![seq](https://i.imgur.com/hNQUtN6.png)
+![seq](https://i.imgur.com/eSiMpkK.png)
 
-### Compiles and minifies for production
-```
-npm run build
-```
+## Reaction Timer Project
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+![seq](https://i.imgur.com/CRdzovi.png)
