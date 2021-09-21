@@ -1,5 +1,5 @@
 <template>
-  <div class="block">
+  <div class="block" v-if="showBlock">
     click-me
   </div>
 </template>
@@ -8,6 +8,16 @@
 export default {
   // I want to receive the prop `delay`
   props: ['delay'],
+  data() {
+    return {
+      showBlock: false,
+    }
+  },
+  mounted() {
+    setTimeout(() => {
+      this.showBlock = true
+    }, this.delay)
+  },
 }
 </script>
 

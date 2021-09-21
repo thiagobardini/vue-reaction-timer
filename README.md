@@ -18,5 +18,11 @@
 
 ## Project Steps by Commits
 
-Starting the Project - Add Block.vue component
-[seq1](https://youtu.be/DHHwaSWFoM0)
+1. Starting the Project - Add Block.vue component
+
+   - [Video 1](https://youtu.be/DHHwaSWFoM0) - [Video 2](https://youtu.be/-v4SAZjhyus)
+
+2. Lifecycle hooks
+   - [Video 1](https://youtu.be/bblVZH-LpI8)
+   - [Vue Documentation](https://v3.vuejs.org/guide/instance.html#lifecycle-diagram)
+   - ![](https://i.imgur.com/U68qSpK.png)

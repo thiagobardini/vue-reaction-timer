@@ -1,7 +1,7 @@
 <template>
   <h1>Ninja reaction Timer</h1>
   <button @click="start" :disabled="isPlaying">play</button>
-  <Block v-if="isPlaying" :delay="delay" />
+  <!-- <Block v-if="isPlaying" :delay="delay" /> -->
 </template>
 
 <script>
@@ -10,7 +10,6 @@ import Block from './components/Block.vue'
 export default {
   name: 'App',
   components: { Block },
-  // data() is a function
   data() {
     return {
       isPlaying: false,
