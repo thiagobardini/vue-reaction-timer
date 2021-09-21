@@ -26,7 +26,7 @@
 
    - [Video 1](https://youtu.be/bblVZH-LpI8)
    - [Vue Documentation](https://v3.vuejs.org/guide/instance.html#lifecycle-diagram)
-   - ![](https://i.imgur.com/U68qSpK.png)
+     ![](https://i.imgur.com/U68qSpK.png)
 
 1. Creating a timer
    - [Video 1](https://youtu.be/kUiI0FPZ3rY)
