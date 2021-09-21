@@ -8,6 +8,15 @@
 ![seq](https://i.imgur.com/hNQUtN6.png)
 ![seq](https://i.imgur.com/eSiMpkK.png)
 
+## Running Server
+
+- `npm run serve`
+
 ## Reaction Timer Project
 
 ![seq](https://i.imgur.com/CRdzovi.png)
+
+## Project Steps by Commits
+
+Starting the Project - Add Block.vue component
+[seq1](https://youtu.be/DHHwaSWFoM0)
