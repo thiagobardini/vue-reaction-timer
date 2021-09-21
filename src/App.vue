@@ -1,5 +1,5 @@
 <template>
-  <h1>Ninja reaction Timer</h1>
+  <h1>Ninja Reaction Timer</h1>
   <button @click="start" :disabled="isPlaying">play</button>
   <Block
     v-if="isPlaying"
@@ -28,7 +28,12 @@ export default {
       delay: null,
       score: null,
       showResults: false,
-      previousResults: [],
+      idData: '',
+      previousResults: [
+        {
+          previous_Score: this.previous_Score,
+        },
+      ],
     }
   },
   methods: {
@@ -38,16 +43,16 @@ export default {
       this.showResults = false
     },
 
-    previousScoresEmit(scoresPlacar) {
-      this.score = scoresPlacar
-      this.previousResults.push({ Previous_Score: scoresPlacar })
-      console.log('Scores ' + scoresPlacar)
-    },
-
     endGame(reactionTime) {
       this.score = reactionTime
       this.isPlaying = false
       this.showResults = true
+    },
+
+    previousScoresEmit(scoresPlacar) {
+      this.score = scoresPlacar
+      this.previousResults.push({ previous_Score: scoresPlacar })
+      console.log('Scores ' + scoresPlacar)
     },
   },
 }
@@ -62,5 +67,22 @@ export default {
   text-align: center;
   color: #444;
   margin-top: 60px;
+}
+
+button {
+  background: #0faf87;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  font-size: 16px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  margin: 10px;
+}
+
+button[disabled] {
+  opacity: 0.2;
+  cursor: not-allowed;
 }
 </style>

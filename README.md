@@ -34,3 +34,10 @@
 
 1. Challenge - showing a results component
    ![](https://i.imgur.com/X1A29tF.png)
+
+1. Finishing touches
+
+## Unsolved Problem
+
+- I want to create a list for my previous results.
+- I want improve styling.
