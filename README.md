@@ -1,11 +1,25 @@
 # vue-reaction-timer
 
+## Final Project
+
+1. Click play to start the game
+
+![](https://i.imgur.com/JEXPXHR.png)
+
+1. Click the button to see your reaction time
+
+![](https://i.imgur.com/4bd6fVw.png)
+
+3. Result of your reaction time and previous reactions times
+
+![](https://i.imgur.com/F14NyJ6.png)
+
 ## Project setup
 
 ![seq](https://i.imgur.com/xfpi0GF.png)
 ![seq](https://i.imgur.com/uc6d1IA.png)
 ![seq](https://i.imgur.com/Fwq3vQR.png)
-![seq](https://i.imgur.com/hNQUtN6.png) s
+![seq](https://i.imgur.com/hNQUtN6.png)
 ![seq](https://i.imgur.com/eSiMpkK.png)
 
 ## Running Server
@@ -36,8 +50,3 @@
    ![](https://i.imgur.com/X1A29tF.png)
 
 1. Finishing touches
-
-## Unsolved Problem
-
-- I want to create a list for my previous results.
-- I want improve styling.
